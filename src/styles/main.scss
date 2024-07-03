@@ -7,11 +7,18 @@
 * {
     margin: 0; 
     padding: 0;
-    box-sizing: border-box;
     font-family: Roboto, sans-serif;
     color: variables.$textColor;
     list-style: none;
+}
 
+body {
+    background-image: 
+        linear-gradient(rgba(variables.$secondaryTextColor, 0.8), rgba(variables.$secondaryTextColor, 0.8)), 
+        url(../images/fundo.png);
+    background-size: auto;
+    background-repeat: repeat-y;
+    position: relative;   
 }
 
 .container {
@@ -22,8 +29,8 @@
     @media (max-width: 640px) {
         max-width: 80%;    
     }
-
-    @media (max-width: 1024) {
-        max-width: 90%;
+    
+    @media (max-width: 1024px) {
+        max-width: 90%;    
     }
 }
