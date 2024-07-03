@@ -9,6 +9,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Ebac Tech Tasks</title>
     <link rel="stylesheet" href="styles/main.scss">
 </head>
@@ -24,7 +25,7 @@
                 <ul class="infos-bar__infos">
                     <li class="infos-bar__infos__item">
                         <b>Localização</b>
-                        <p>Allianz Parque - Barra Funda - São Paulo</p>
+                        Allianz Parque - Barra Funda - São Paulo
                     </li>
                     <li class="infos-bar__infos__item">
                         <b>Preço</b>
@@ -42,12 +43,12 @@
         </div>
     </header>
 
-    <section class="event">
-        <div class="container">
+    <section class="event event--front-end">
+        <div class="container" data-aos="fade-right">
             <div class="event__details">
                 <h2 class="event__details_title">Front-end</h2>
                 <p class="event__details_description">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam possimus accusamus harum omnis 
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam possimus accusamus harum omnis
                     fugit debitis autem odit officia, quisquam labore ea commodi praesentium eius quod. Quisquam maxime
                     saepe nostrum ex.
                 </p>
@@ -55,6 +56,49 @@
             <img class="event__image" src="./images/frontend.png" alt="Front-end">
         </div>
     </section>
+
+    <section class="event event--ux-ui event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details_title">UI/UX</h2>
+                <p class="event__details_description">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam possimus accusamus harum omnis
+                    fugit debitis autem odit officia, quisquam labore ea commodi praesentium eius quod. Quisquam maxime
+                    saepe nostrum ex.
+                </p>
+            </div>
+            <img class="event__image" src="./images/frontend.png" alt="Front-end">
+        </div>
+    </section>
+
+    <section class="event event--data-science">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details_title">Data Science</h2>
+                <p class="event__details_description">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam possimus accusamus harum omnis
+                    fugit debitis autem odit officia, quisquam labore ea commodi praesentium eius quod. Quisquam maxime
+                    saepe nostrum ex.
+                </p>
+            </div>
+            <img class="event__image" src="./images/frontend.png" alt="Front-end">
+        </div>
+    </section>
+
+    <section class="event event--back-end event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details_title">Back-end</h2>
+                <p class="event__details_description">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam possimus accusamus harum omnis
+                    fugit debitis autem odit officia, quisquam labore ea commodi praesentium eius quod. Quisquam maxime
+                    saepe nostrum ex.
+                </p>
+            </div>
+            <img class="event__image" src="./images/frontend.png" alt="Front-end">
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>   
 
     <script src="scripts/main.js"></script>
 </body>
